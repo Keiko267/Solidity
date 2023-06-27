@@ -24,6 +24,5 @@ contract otroContrato {
         require(success);
         return abi.decode(data, (bool));
     }
-   
 
 }

@@ -1,0 +1,11 @@
+Check --> Effect --> Interaction
+¿Cual es la condicion para recibir ether desde una transaccion normal?
+Recieve payable
+
+Selfdestruct (address) destruye el contrato y envía los fondos a la address
+
+Contraseñas --> Las variables privadas no es que no se puedan ver desde fuera, son privadas hablando de la visibilidad del contrato, , 
+no permiten que otras cuentas o contratos accedan a ellas. Hay que tener cuidado si no queremos que una variable privada se pueda ver.
+Para web3 deberíamos usar a lo mejor un tipo de rol que nos permitiera.
+
+Cuando delegas llamadas, debemos tener el mismo orden de variables para que se ajusten las posiciones de memoria una con otra.

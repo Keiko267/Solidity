@@ -1,0 +1,10 @@
+1. Instalar Node JS
+2. Instalar Ganache
+3. Instalar truffle
+4. Instalar proveedor de HD wallet
+5. Instalar modulo de variable de entorno
+6. Instalar módulo librería de OpenZeppelin
+7. Configurar truffle-config.JS
+8. Lanzar Ganache y configurar direccion servidor RPC
+9. Crearproyecto en Ingura
+Configurar variables de entorno (MNEMONIC, PROJECT_ID)

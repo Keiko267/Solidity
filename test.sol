@@ -3,8 +3,9 @@ pragma solidity ^0.8.0;
 
 contract SmartContract {
     address public owner;
+    uint8 public i;
     
-    constructor() {
+    constructor() { 
         owner = msg.sender;
     }
     

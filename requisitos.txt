@@ -1,0 +1,18 @@
+- Crear Rentis, uno por cada euro que vale cada inmueble
+- Crear Rentis por cada inmueble
+- Cada vivienda tiene un apartado con la rentabilidad anterior y puede que con una estimación.
+
+Caso 1: Un usuario compra Rentis:
+1. El usuario ingresa con su PerK para el KYC
+2. El usuario decide cuantos Rentis quiere comprar y de qué vivienda e ingresa la cantidad
+3. Si hay suficientes Rentis para comprar, a través de un sistema 2 de pago sus Rentis pasan automáticamente a su cartera virtual (CONTRATO)
+4. La transaccion queda registrada en una BD
+5. El usuario, si no tenía antes Rentis, se convierte en un ShareHolder
+
+Caso 2: Un usuario hace redeem de sus Rentis
+1. El usuario decide cambiar sus Rentis a $, accede a su "cartera 2" y decide la cantidad
+2. El usuario pulsa en Redeem y se pasan los Rentis a $
+3
+
+
+Cuando hay ganancias, se devuelve a cada usuario su 

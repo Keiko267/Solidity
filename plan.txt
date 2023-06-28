@@ -1,4 +1,21 @@
 El plan:
 Hacer un token; "convertir los pisos en una criptomoneda", "hacer una criptomoneda de smart rent".
 Un único token para que todo sea justo. Emitimos 1000 fichas... El inversor compra una ficha y tiene el derecho a??
-Por ejemplo, si una casa marca los 10.000€, se reparten 10.000 fichas.  
+Por ejemplo, si una casa marca los 10.000€, se reparten 10.000 fichas.
+La entidad emite un instrumento de deuda que un comprador adquiere, aportando así financiación a la entidad. Como contraprestación, la entidad se compromete, 
+dado que es una obligación financiera, a devolver la cantidad prestada en un periodo determinado. 
+Para ello, también se acuerda una rentabilidad, la cual se pagará al tenedor de la deuda como rendimiento por la prestación.
+Este protocolo obligará a los exchanges a suministrar información privada de sus usuarios si hacen transferencias mayores a los 1.000 euros.  
+Planteo de la arquitectura.
+Test de contratos.
+Gestionamos los wallet de los clientes. Un usuario y una contraseña. 
+Pagar: Tarjeta de crédito, plataforma de pago, se tiene una cuenta empresaria en un exchange. 
+Se hacen compras con esos fondos en el exchange o se ingresa inmediatamente.
+Con esos fondos de reserva se van haciendo compras a medida que el usuario va comprando, compramos y hacemos el envío al usuario desde el exchange
+El usuario no se tiene que crear una cuenta en finance porque nosotros ya tenemos una. Hacemos el envío de la moneda o lo que tenga que hacer para comprar el token.
+Si nosotros queremos de Fiat a token no hay que hacer nada, emitimos tantos tokens como nos hayan pagado en dinero Fiat, llevamos un registro.
+Para el reparto exactamente igual, es público y aportamos quien tiene qué y cuánto, esto, aparte de tener un registro interno por temas legales y de seguridad,
+podríamos tener una paginita donde, detrás de "holders" fuera fácil para los usuarios ver esto. Otra opción es dejarlo en privado en la página pero hacerlo público con el
+contrato, manteniendo la transparencia para usuarios más avanzados pero no para usuarios habituales. Ventaja: Menos que programar. Desventaja: Menos UI motives.
+La idea es que alguien pueda manejar y usar su cartera3 pero no sea obligatorio.
+Requisito legal: El usuario tiene que pasar sí o también un KYC, que es obligatorio que esté en el contrato. 

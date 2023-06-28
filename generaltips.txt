@@ -9,3 +9,4 @@ no permiten que otras cuentas o contratos accedan a ellas. Hay que tener cuidado
 Para web3 deberíamos usar a lo mejor un tipo de rol que nos permitiera.
 
 Cuando delegas llamadas, debemos tener el mismo orden de variables para que se ajusten las posiciones de memoria una con otra.
+

@@ -1,7 +1,9 @@
-- Crear Rentis, uno por cada euro que vale cada inmueble
-- Crear Rentis por cada inmueble
+- Crear Rentis, uno por cada $ que vale cada inmueble
+- Crear Rentis por cada inmueble en el que pueda invertirse
+----webApp------
 - Cada vivienda tiene un apartado con la rentabilidad anterior y puede que con una estimación.
-
+- Sería muy interesante poner datos de la domótica de la vivienda, dentro de lo legal que sea eso.
+-------------
 Caso 1: Un usuario compra Rentis:
 1. El usuario ingresa con su PerK para el KYC
 2. El usuario decide cuantos Rentis quiere comprar y de qué vivienda e ingresa la cantidad
@@ -11,8 +13,15 @@ Caso 1: Un usuario compra Rentis:
 
 Caso 2: Un usuario hace redeem de sus Rentis
 1. El usuario decide cambiar sus Rentis a $, accede a su "cartera 2" y decide la cantidad
-2. El usuario pulsa en Redeem y se pasan los Rentis a $
-3
+2. El usuario pulsa en Redeem y se pasan los Rentis a $ (contrato?)
+3. La transaccion se guarda en una BD
+4. A través de una transferencia se devuelven los $ invertidos.
 
+Caso 3: Creación de Rentis
+1. El administrador da de alta un inmueble
+2. El administrador ejecuta una función en el contrato que permite crear Rentis a través de un ID (para evitar duplicar)
+3. Se crean los Rentis propocionales a lo que vale el inmueble
 
-Cuando hay ganancias, se devuelve a cada usuario su 
+Caso 4: Creación de Rentis (ganancias)
+1. El administrador anota las ganancias que ha tenido un inmueble y se suben al contrato
+????? Sumar a la cartera virtual de los inversores las ganancias / Restar las pérdidas????

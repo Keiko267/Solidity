@@ -19,6 +19,6 @@ contract SmartContract {
     function transfer(address payable recipient, uint256 amount) public {
         require(msg.sender == owner, "Only the contract owner can perform this action");
         require(address(this).balance >= amount, "Insufficient balance in the contract");
-        recipie nt.transfer(amount);
+        recipient.transfer(amount);
     }
 }
